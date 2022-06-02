@@ -7,21 +7,27 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*header*/
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1f2937;
+    
    
 }
 
-.header-logo {
+#header-logo {
     font-size: 24px;
     color: #f9faf8;
     
 }
+#link-container {
+    display: flex; 
+    justify-content: space-between;
+    width: 70%;
+}
 
-.links {
+#header-links {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -31,4 +37,145 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/*hero main*/
+
+#hero-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1f2937;
+    height: 500px;
+}
+
+#hero-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    gap: 260px;
+}
+
+#hero-main-img {
+    max-width: 250px;
+    max-height: 450px;
+}
+
+#hero-text > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#hero-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 7px;
+    border: none;
+    padding: 5px 15px;
+}
+
+/*background info*/
+#info {
+    height: 500px;
+}
+.images {
+    width: 320px;
+    height: 213.75px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-and-text {
+    text-align: center;
+}
+
+#random-info {
+    text-align: center;
+    margin: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+/*quote*/
+
+#quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 500px;
+    width: auto;
+}
+
+#quote-and-author {
+    height: 300px;
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/*call to action*/
+
+#cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#cta-box {
+    height: 100px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cta-text {
+    color: #f9faf8;
+    
+}
+
+#cta-title {
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+#cta-desc {
+    margin-top: 0;
+}
+
+
+#cta-button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+}
+
+footer {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #f9faf8;
 }
